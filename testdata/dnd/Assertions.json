@@ -1,0 +1,243 @@
+{
+    "data": [
+        {
+            "storeInvalidationRecords": [
+                {
+                    "invalidationAssertion": {
+                        "assertionUUID": "83CAF149-2877-4AB1-B030-16BEF098B424",
+                        "assertionSource": {
+                            "assertionClientIdentifier": "com.apple.controlcenter.dnd"
+                        },
+                        "assertionStartDateTimestamp": 682441116.16817296,
+                        "assertionDetails": {
+                            "assertionDetailsIdentifier": "com.apple.controlcenter.dnd",
+                            "assertionDetailsModeIdentifier": "com.apple.donotdisturb.mode.default",
+                            "assertionDetailsReason": "user-action"
+                        }
+                    },
+                    "invalidationSource": {
+                        "assertionClientIdentifier": "com.apple.controlcenter.dnd"
+                    },
+                    "invalidationDateTimestamp": 682443503.905743,
+                    "invalidationReason": "user-changed-state"
+                },
+                {
+                    "invalidationAssertion": {
+                        "assertionUUID": "BEEA6984-2E89-49E8-BF15-2F83C50E82C5",
+                        "assertionSource": {
+                            "assertionClientIdentifier": "com.apple.donotdisturb.private.smart-trigger",
+                            "assertionSourceDeviceIdentifier": "50D307E5-AF7F-4DF0-81B0-E0553399873C"
+                        },
+                        "assertionStartDateTimestamp": 655472751.62268603,
+                        "assertionDetails": {
+                            "assertionDetailsIdentifier": "com.apple.donotdisturb.trigger.smart",
+                            "assertionDetailsModeIdentifier": "com.apple.focus.work"
+                        }
+                    },
+                    "invalidationSource": {
+                        "assertionClientIdentifier": "com.apple.focus.activity-manager",
+                        "assertionSourceDeviceIdentifier": "B3FFE288-FC34-430C-89EB-B6CF2828A8C7"
+                    },
+                    "invalidationDateTimestamp": 684542766.36909199,
+                    "invalidationReason": "user-changed-state"
+                },
+                {
+                    "invalidationAssertion": {
+                        "assertionUUID": "064AE73E-2988-4889-A681-2D8051DC19B1",
+                        "assertionSource": {
+                            "assertionClientIdentifier": "com.apple.private.Carousel.control-center.DND.state",
+                            "assertionSourceDeviceIdentifier": "B3FFE288-FC34-430C-89EB-B6CF2828A8C7"
+                        },
+                        "assertionStartDateTimestamp": 651280129.19686699,
+                        "assertionDetails": {
+                            "assertionDetailsIdentifier": "com.apple.Carousel.control-center.manual-toggle",
+                            "assertionDetailsModeIdentifier": "com.apple.donotdisturb.mode.default",
+                            "assertionDetailsLifetime": {
+                                "assertionDetailsScheduleLifetimeScheduleIdentifier": "com.apple.donotdisturb.schedule.default",
+                                "assertionDetailsLifetimeType": "schedule",
+                                "assertionDetailsScheduleLifetimeBehavior": "expire-on-end"
+                            }
+                        }
+                    },
+                    "invalidationSource": {
+                        "assertionClientIdentifier": "com.apple.focus.activity-manager",
+                        "assertionSourceDeviceIdentifier": "B3FFE288-FC34-430C-89EB-B6CF2828A8C7"
+                    },
+                    "invalidationDateTimestamp": 684542766.36909199,
+                    "invalidationReason": "user-changed-state"
+                },
+                {
+                    "invalidationAssertion": {
+                        "assertionUUID": "55B9D4EA-AE65-42F0-81E5-51F2A63BD9A6",
+                        "assertionSource": {
+                            "assertionClientIdentifier": "com.apple.DoNotDisturb.Intents",
+                            "assertionSourceDeviceIdentifier": "18850217-597C-49C9-81AF-4C3BAC6A5D67"
+                        },
+                        "assertionStartDateTimestamp": 672246082.03992796,
+                        "assertionDetails": {
+                            "assertionDetailsIdentifier": "com.apple.DoNotDisturb.Intents",
+                            "assertionDetailsModeIdentifier": "com.apple.donotdisturb.mode.default",
+                            "assertionDetailsLifetime": {
+                                "assertionDetailsCalendarEventLifetimeEventUniqueIdentifier": "20220421T073528Z-91628624287@fe80:0:0:0:c1:cbff:feb5:4bd5ens5",
+                                "assertionDetailsLifetimeType": "calendar",
+                                "assertionDetailsCalendarEventLifetimeOnlyDuringEvent": false
+                            }
+                        }
+                    },
+                    "invalidationSource": {
+                        "assertionClientIdentifier": "com.apple.focus.activity-manager",
+                        "assertionSourceDeviceIdentifier": "B3FFE288-FC34-430C-89EB-B6CF2828A8C7"
+                    },
+                    "invalidationDateTimestamp": 684542766.36909199,
+                    "invalidationReason": "user-changed-state"
+                },
+                {
+                    "invalidationAssertion": {
+                        "assertionUUID": "E0AE7664-2DC9-41DD-93AB-F8853C0871FD",
+                        "assertionSource": {
+                            "assertionClientIdentifier": "com.apple.FocusSettings",
+                            "assertionSourceDeviceIdentifier": "18850217-597C-49C9-81AF-4C3BAC6A5D67"
+                        },
+                        "assertionStartDateTimestamp": 681567466.83508098,
+                        "assertionDetails": {
+                            "assertionDetailsIdentifier": "com.apple.FocusSettings",
+                            "assertionDetailsModeIdentifier": "com.apple.donotdisturb.mode.workout",
+                            "assertionDetailsReason": "user-action"
+                        }
+                    },
+                    "invalidationSource": {
+                        "assertionClientIdentifier": "com.apple.focus.activity-manager",
+                        "assertionSourceDeviceIdentifier": "B3FFE288-FC34-430C-89EB-B6CF2828A8C7"
+                    },
+                    "invalidationDateTimestamp": 684542766.36909199,
+                    "invalidationReason": "user-changed-state"
+                },
+                {
+                    "invalidationAssertion": {
+                        "assertionUUID": "F51115D3-9ABF-425F-8256-C1E8F2BEC7FC",
+                        "assertionSource": {
+                            "assertionClientIdentifier": "com.apple.donotdisturb.private.app-launch",
+                            "assertionSourceDeviceIdentifier": "18850217-597C-49C9-81AF-4C3BAC6A5D67"
+                        },
+                        "assertionStartDateTimestamp": 685464545.52518594,
+                        "assertionDetails": {
+                            "assertionDetailsIdentifier": "com.marcoarment.instapaperpro.donotdisturb.trigger",
+                            "assertionDetailsModeIdentifier": "com.apple.focus.reading",
+                            "assertionDetailsReason": "system-state"
+                        }
+                    },
+                    "invalidationSource": {
+                        "assertionClientIdentifier": "com.apple.donotdisturb.private.app-launch",
+                        "assertionSourceDeviceIdentifier": "18850217-597C-49C9-81AF-4C3BAC6A5D67"
+                    },
+                    "invalidationDateTimestamp": 685464562.14077103,
+                    "invalidationReason": "client-ended"
+                },
+                {
+                    "invalidationAssertion": {
+                        "assertionUUID": "0D2D5E5F-7235-4D0D-8D9B-285A652DA238",
+                        "assertionSource": {
+                            "assertionClientIdentifier": "com.apple.focus.activity-manager",
+                            "assertionSourceDeviceIdentifier": "B3FFE288-FC34-430C-89EB-B6CF2828A8C7"
+                        },
+                        "assertionStartDateTimestamp": 685576768.99642599,
+                        "assertionDetails": {
+                            "assertionDetailsIdentifier": "com.apple.focus.activity-manager",
+                            "assertionDetailsModeIdentifier": "com.apple.sleep.sleep-mode",
+                            "assertionDetailsLifetime": {
+                                "assertionDetailsScheduleLifetimeScheduleIdentifier": "com.apple.donotdisturb.schedule.default",
+                                "assertionDetailsLifetimeType": "schedule",
+                                "assertionDetailsScheduleLifetimeBehavior": "expire-on-end"
+                            },
+                            "assertionDetailsReason": "user-action"
+                        }
+                    },
+                    "invalidationSource": {
+                        "assertionClientIdentifier": "com.apple.donotdisturb.private.sleeping-trigger",
+                        "assertionSourceDeviceIdentifier": "B3FFE288-FC34-430C-89EB-B6CF2828A8C7"
+                    },
+                    "invalidationDateTimestamp": 685576769.16404998,
+                    "invalidationReason": "client-replaced"
+                },
+                {
+                    "invalidationAssertion": {
+                        "assertionUUID": "8C71DFE3-B39D-4231-AB95-9570C2660896",
+                        "assertionSource": {
+                            "assertionClientIdentifier": "com.apple.donotdisturb.private.sleeping-trigger",
+                            "assertionSourceDeviceIdentifier": "18850217-597C-49C9-81AF-4C3BAC6A5D67"
+                        },
+                        "assertionStartDateTimestamp": 685592565.35293996,
+                        "assertionDetails": {
+                            "assertionDetailsIdentifier": "com.apple.donotdisturb.trigger.sleeping",
+                            "assertionDetailsModeIdentifier": "com.apple.sleep.sleep-mode",
+                            "assertionDetailsUserVisibleEndDate": 685596600
+                        }
+                    },
+                    "invalidationSource": {
+                        "assertionClientIdentifier": "com.apple.focus.activity-manager",
+                        "assertionSourceDeviceIdentifier": "B3FFE288-FC34-430C-89EB-B6CF2828A8C7"
+                    },
+                    "invalidationDateTimestamp": 685597455.69960296,
+                    "invalidationReason": "user-changed-state"
+                },
+                {
+                    "invalidationAssertion": {
+                        "assertionUUID": "11F2ECCB-EEA1-4F0D-B417-2B470ECC8C6E",
+                        "assertionSource": {
+                            "assertionClientIdentifier": "com.apple.donotdisturb.private.workout-trigger",
+                            "assertionSourceDeviceIdentifier": "B3FFE288-FC34-430C-89EB-B6CF2828A8C7"
+                        },
+                        "assertionStartDateTimestamp": 685657965.911924,
+                        "assertionDetails": {
+                            "assertionDetailsIdentifier": "com.apple.donotdisturb.trigger.workout.86712320-410C-411B-A22E-0F7C93ACA16B",
+                            "assertionDetailsModeIdentifier": "com.apple.donotdisturb.mode.workout",
+                            "assertionDetailsReason": "user-action"
+                        }
+                    },
+                    "invalidationSource": {
+                        "assertionClientIdentifier": "com.apple.donotdisturb.private.workout-trigger",
+                        "assertionSourceDeviceIdentifier": "B3FFE288-FC34-430C-89EB-B6CF2828A8C7"
+                    },
+                    "invalidationDateTimestamp": 685658524.840639,
+                    "invalidationReason": "user-changed-state"
+                }
+            ],
+            "storeInvalidationRequestRecords": [
+                {
+                    "invalidationRequestPredicate": {
+                        "invalidationPredicateType": "any"
+                    },
+                    "invalidationRequestReason": "user-changed-state",
+                    "invalidationRequestUUID": "E3CC7E89-D5C3-4E2D-909E-26BD8C7DC3F2",
+                    "invalidationRequestSource": {
+                        "assertionClientIdentifier": "com.apple.focus.activity-manager"
+                    },
+                    "invalidationRequestDateTimestamp": 685683452.80469799
+                }
+            ],
+            "storeAssertionRecords": [
+                {
+                    "assertionUUID": "95CC6975-BFC8-4A67-B732-6876FC96EE59",
+                    "assertionSource": {
+                        "assertionClientIdentifier": "com.apple.focus.activity-manager"
+                    },
+                    "assertionStartDateTimestamp": 685683452.80469799,
+                    "assertionDetails": {
+                        "assertionDetailsIdentifier": "com.apple.focus.activity-manager",
+                        "assertionDetailsModeIdentifier": "com.apple.donotdisturb.mode.default",
+                        "assertionDetailsLifetime": {
+                            "assertionDetailsScheduleLifetimeScheduleIdentifier": "com.apple.donotdisturb.schedule.default",
+                            "assertionDetailsLifetimeType": "schedule",
+                            "assertionDetailsScheduleLifetimeBehavior": "expire-on-end"
+                        },
+                        "assertionDetailsReason": "user-action"
+                    }
+                }
+            ]
+        }
+    ],
+    "header": {
+        "version": 8,
+        "timestamp": 685683452.80617297
+    }
+}

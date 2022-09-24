@@ -1,0 +1,275 @@
+{
+    "data": [
+        {
+            "modeConfigurations": {
+                "com.apple.sleep.sleep-mode": {
+                    "triggers": {
+                        "triggers": [
+                            {
+                                "class": "DNDModeConfigurationSleepingTrigger",
+                                "enabledSetting": 0
+                            }
+                        ]
+                    },
+                    "automaticallyGenerated": false,
+                    "mode": {
+                        "name": "Сон",
+                        "tintColorName": "systemMintColor",
+                        "identifier": "C4B15C29-9E79-44B2-96A8-FA9F2F11A26C",
+                        "semanticType": 1,
+                        "symbolImageName": "bed.double.fill",
+                        "modeIdentifier": "com.apple.sleep.sleep-mode",
+                        "visibility": 0
+                    },
+                    "dimsLockScreen": 2,
+                    "configuration": {
+                        "suppressionType": 2,
+                        "compatibilityVersion": 2,
+                        "configurationType": 0,
+                        "minimumBreakthroughUrgency": 0,
+                        "hideApplicationBadges": 2
+                    },
+                    "created": 1632722624.3087449,
+                    "compatibilityVersion": 2,
+                    "hasSecureData": true,
+                    "impactsAvailability": 0,
+                    "lastModified": 1658409221.9771171
+                },
+                "com.apple.focus.reading": {
+                    "triggers": {
+                        "triggers": [
+                            {
+                                "class": "DNDModeConfigurationSmartTrigger",
+                                "enabledSetting": 1
+                            }
+                        ]
+                    },
+                    "automaticallyGenerated": false,
+                    "mode": {
+                        "name": "Чтение",
+                        "tintColorName": "systemOrangeColor",
+                        "identifier": "6F9B93B2-F235-4B1E-9595-C5CB22947AD4",
+                        "semanticType": 6,
+                        "symbolImageName": "book.closed.fill",
+                        "modeIdentifier": "com.apple.focus.reading",
+                        "visibility": 0
+                    },
+                    "dimsLockScreen": 0,
+                    "configuration": {
+                        "suppressionType": 2,
+                        "compatibilityVersion": 2,
+                        "configurationType": 0,
+                        "minimumBreakthroughUrgency": 1,
+                        "hideApplicationBadges": 0
+                    },
+                    "created": 1633592843.130338,
+                    "compatibilityVersion": 2,
+                    "hasSecureData": true,
+                    "impactsAvailability": 0,
+                    "lastModified": 1659006473.814518
+                },
+                "com.apple.donotdisturb.mode.workout": {
+                    "triggers": {
+                        "triggers": [
+                            {
+                                "class": "DNDModeConfigurationWorkoutTrigger",
+                                "enabledSetting": 2
+                            }
+                        ]
+                    },
+                    "automaticallyGenerated": false,
+                    "mode": {
+                        "name": "Спорт",
+                        "tintColorName": "systemGreenColor",
+                        "identifier": "8A3DDE54-0E9A-4A02-996B-23486301F2C1",
+                        "semanticType": 3,
+                        "symbolImageName": "figure.run",
+                        "modeIdentifier": "com.apple.donotdisturb.mode.workout",
+                        "visibility": 0
+                    },
+                    "dimsLockScreen": 0,
+                    "configuration": {
+                        "suppressionType": 2,
+                        "compatibilityVersion": 2,
+                        "configurationType": 0,
+                        "minimumBreakthroughUrgency": 1,
+                        "hideApplicationBadges": 0
+                    },
+                    "created": 1640323082.033601,
+                    "compatibilityVersion": 2,
+                    "hasSecureData": true,
+                    "impactsAvailability": 0,
+                    "lastModified": 1661176825.877527
+                },
+                "com.apple.donotdisturb.mode.default": {
+                    "triggers": {
+                        "triggers": [
+                            {
+                                "class": "DNDModeConfigurationSmartTrigger",
+                                "enabledSetting": 1
+                            }
+                        ]
+                    },
+                    "automaticallyGenerated": false,
+                    "mode": {
+                        "name": "Do Not Disturb",
+                        "tintColorName": "systemIndigoColor",
+                        "identifier": "488258AC-CECE-4B1B-8132-3AFBF2B4C314",
+                        "semanticType": 0,
+                        "symbolImageName": "moon.fill",
+                        "modeIdentifier": "com.apple.donotdisturb.mode.default",
+                        "visibility": 0
+                    },
+                    "dimsLockScreen": 2,
+                    "configuration": {
+                        "suppressionType": 2,
+                        "compatibilityVersion": 2,
+                        "configurationType": 0,
+                        "minimumBreakthroughUrgency": 0,
+                        "hideApplicationBadges": 2
+                    },
+                    "created": 1632697705.3033209,
+                    "compatibilityVersion": 2,
+                    "hasSecureData": false,
+                    "impactsAvailability": 0,
+                    "lastModified": 1658409131.5513968
+                },
+                "com.apple.focus.mindfulness": {
+                    "triggers": {
+                        "triggers": [
+                            {
+                                "class": "DNDModeConfigurationMindfulnessTrigger",
+                                "enabledSetting": 2
+                            },
+                            {
+                                "class": "DNDModeConfigurationSmartTrigger",
+                                "enabledSetting": 1
+                            }
+                        ]
+                    },
+                    "automaticallyGenerated": false,
+                    "mode": {
+                        "name": "Осознанность",
+                        "tintColorName": "systemMintColor",
+                        "identifier": "CDFF7789-44D4-42E2-B2D2-F1EE163FF4EC",
+                        "semanticType": 8,
+                        "symbolImageName": "apple.mindfulness",
+                        "modeIdentifier": "com.apple.focus.mindfulness",
+                        "visibility": 0
+                    },
+                    "dimsLockScreen": 2,
+                    "configuration": {
+                        "suppressionType": 2,
+                        "compatibilityVersion": 2,
+                        "configurationType": 0,
+                        "minimumBreakthroughUrgency": 0,
+                        "hideApplicationBadges": 2
+                    },
+                    "created": 1633592642.44153,
+                    "compatibilityVersion": 2,
+                    "hasSecureData": true,
+                    "impactsAvailability": 0,
+                    "lastModified": 1658409168.914526
+                },
+                "com.apple.focus.personal-time": {
+                    "triggers": {
+                        "triggers": [
+                            {
+                                "class": "DNDModeConfigurationSmartTrigger",
+                                "enabledSetting": 1
+                            }
+                        ]
+                    },
+                    "automaticallyGenerated": false,
+                    "mode": {
+                        "name": "Личное",
+                        "tintColorName": "systemPurpleColor",
+                        "identifier": "FB792330-9AE8-4F23-932C-B8E2E87E1D71",
+                        "semanticType": 5,
+                        "symbolImageName": "person.fill",
+                        "modeIdentifier": "com.apple.focus.personal-time",
+                        "visibility": 0
+                    },
+                    "dimsLockScreen": 1,
+                    "configuration": {
+                        "suppressionType": 2,
+                        "compatibilityVersion": 3,
+                        "configurationType": 0,
+                        "minimumBreakthroughUrgency": 1,
+                        "hideApplicationBadges": 2
+                    },
+                    "created": 1663359777.4181371,
+                    "compatibilityVersion": 2,
+                    "hasSecureData": true,
+                    "impactsAvailability": 0,
+                    "lastModified": 1663359992.596452
+                },
+                "com.apple.focus.gaming": {
+                    "triggers": {
+                        "triggers": []
+                    },
+                    "automaticallyGenerated": false,
+                    "mode": {
+                        "name": "Видеоигры",
+                        "tintColorName": "systemBlueColor",
+                        "identifier": "68AC41EA-8972-409E-BFAA-D77578673C63",
+                        "semanticType": 7,
+                        "symbolImageName": "rocket.fill",
+                        "modeIdentifier": "com.apple.focus.gaming",
+                        "visibility": 1
+                    },
+                    "dimsLockScreen": 0,
+                    "configuration": {
+                        "suppressionType": 2,
+                        "compatibilityVersion": 2,
+                        "configurationType": 0,
+                        "minimumBreakthroughUrgency": 0,
+                        "hideApplicationBadges": 0
+                    },
+                    "created": 1632810214.933569,
+                    "compatibilityVersion": 2,
+                    "hasSecureData": false,
+                    "impactsAvailability": 0,
+                    "lastModified": 1632810214.936316
+                },
+                "com.apple.focus.work": {
+                    "triggers": {
+                        "triggers": [
+                            {
+                                "class": "DNDModeConfigurationSmartTrigger",
+                                "enabledSetting": 1
+                            }
+                        ]
+                    },
+                    "automaticallyGenerated": false,
+                    "mode": {
+                        "name": "Работа",
+                        "tintColorName": "systemTealColor",
+                        "identifier": "C86431B7-F974-4ED8-908A-E5020FD9DAD7",
+                        "semanticType": 4,
+                        "symbolImageName": "person.lanyardcard.fill",
+                        "modeIdentifier": "com.apple.focus.work",
+                        "visibility": 0
+                    },
+                    "dimsLockScreen": 0,
+                    "configuration": {
+                        "suppressionType": 2,
+                        "compatibilityVersion": 3,
+                        "configurationType": 0,
+                        "minimumBreakthroughUrgency": 1,
+                        "hideApplicationBadges": 2
+                    },
+                    "created": 1633593368.1930261,
+                    "compatibilityVersion": 2,
+                    "hasSecureData": true,
+                    "impactsAvailability": 0,
+                    "lastModified": 1663332799.0272989
+                }
+            }
+        }
+    ],
+    "header": {
+        "version": 2,
+        "timestamp": 685107585.68319404
+    }
+}
