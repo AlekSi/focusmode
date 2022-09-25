@@ -3,6 +3,8 @@ package focusmode
 
 // Mode represents a macOS focus mode.
 type Mode struct {
-	ID   string
+	// Mode ID, e.g. "com.apple.donotdisturb.mode.default".
+	ID string
+	// Mode name, e.g. "Do Not Disturb".
 	Name string
 }
