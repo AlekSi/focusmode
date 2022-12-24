@@ -18,7 +18,7 @@ func TestParse(t *testing.T) {
 			ID:   "com.apple.donotdisturb.mode.default",
 			Name: "Do Not Disturb",
 		},
-		"no": nil,
+		"no": {},
 		"workout": {
 			ID:   "com.apple.donotdisturb.mode.workout",
 			Name: "Спорт",

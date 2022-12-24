@@ -28,6 +28,8 @@ type modeConfigurationsFile struct {
 }
 
 // Current returns the current macOS focus mode.
+//
+// If the focus mode is not enabled, an empty non-nil result is returned.
 func Current() (*Mode, error) {
 	home, err := os.UserHomeDir()
 	if err != nil {
@@ -65,7 +67,7 @@ func parse(assertions, modeConfigurations []byte) (*Mode, error) {
 	storeInvalidationRecords := assertionsFile.Data[0].StoreAssertionRecords
 	switch l := len(storeInvalidationRecords); l {
 	case 0:
-		return nil, nil
+		return new(Mode), nil
 	case 1:
 		if l := len(modeConfigurationsFile.Data); l != 1 {
 			return nil, fmt.Errorf("modeConfigurations: expected 1 data, got %d", l)
