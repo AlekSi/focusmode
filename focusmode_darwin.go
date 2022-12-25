@@ -77,7 +77,7 @@ func parse(assertions, modeConfigurations []byte) (*Mode, error) {
 		name := modeConfigurationsFile.Data[0].ModeConfigurations[id].Mode.Name
 
 		return &Mode{
-			ID:   id,
+			ID:   ModeID(id),
 			Name: name,
 		}, nil
 	default:

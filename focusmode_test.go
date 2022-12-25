@@ -15,12 +15,12 @@ func TestParse(t *testing.T) {
 
 	for dir, expected := range map[string]*Mode{
 		"dnd": {
-			ID:   "com.apple.donotdisturb.mode.default",
+			ID:   ModeIDDoNotDisturb,
 			Name: "Do Not Disturb",
 		},
 		"no": {},
 		"workout": {
-			ID:   "com.apple.donotdisturb.mode.workout",
+			ID:   ModeIDWorkout,
 			Name: "Спорт",
 		},
 	} {
